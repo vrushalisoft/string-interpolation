@@ -124,7 +124,7 @@ var country = "India";
 var locate  =  "South Asia";
 var demo  =  "democracy";
 
-var result = "10) " + country + ", officially the Republic of India is a country in " + locate + ". It is the seventh-largest country by area, the second-most populous country, and the most " + demo + " in the world.<br>"
+var result = "10) " + country + ", officially the Republic of " + country +  " is a country in " + locate + ". It is the seventh-largest country by area, the second-most populous country, and the most " + demo + " in the world.<br>"
 
 console.log(result);
 document.write(result);
